@@ -1,7 +1,7 @@
 #ifndef TASK_H
 #define TASK_H
 
-//c++11新特性
+ 
 using callback = void (*)(void* args);
 
 /**
