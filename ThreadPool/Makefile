@@ -1,9 +1,9 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS= -lpthread 
-SOURCES=main.cpp TaskQueue.cpp ThreadPool.cpp
+SOURCES=test.cpp TaskQueue.cpp ThreadPool.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=hello
+EXECUTABLE=test
 
 all: $(EXECUTABLE)
 
